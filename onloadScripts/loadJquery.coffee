@@ -1,3 +1,19 @@
+//load velocityui
+velocityui = document.createElement('script');
+velocityui.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.2/velocity.ui.min.js');
+velocityui.setAttribute('id','animation controls');
+document.getElementsByTagName('head')[0].childNodes
+document.getElementsByTagName('script')[0].append(velocityui)
+document.getElementsByTagName('head')[0].insertBefore(document.getElementsByTagName('script')[0].childNodes[0],document.getElementsByTagName('head')[0].childNodes[0])
+
+//load velocity
+velocity = document.createElement('script');
+velocity.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.2/velocity.min.js');
+velocity.setAttribute('id','animation controls');
+document.getElementsByTagName('head')[0].childNodes
+document.getElementsByTagName('script')[0].append(velocity)
+document.getElementsByTagName('head')[0].insertBefore(document.getElementsByTagName('script')[0].childNodes[0],document.getElementsByTagName('head')[0].childNodes[0])
+
 //load animation controls
 jquery = document.createElement('script');
 jquery.setAttribute('src','https://cdn.rawgit.com/tisho/framer-animation-controls/master/framer-animation-controls.js');
