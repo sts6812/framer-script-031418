@@ -14,21 +14,7 @@ document.getElementsByTagName('head')[0].childNodes
 document.getElementsByTagName('script')[0].append(velocity)
 document.getElementsByTagName('head')[0].insertBefore(document.getElementsByTagName('script')[0].childNodes[0],document.getElementsByTagName('head')[0].childNodes[0])
 
-//load animation controls
-jquery = document.createElement('script');
-jquery.setAttribute('src','https://cdn.rawgit.com/tisho/framer-animation-controls/master/framer-animation-controls.js');
-jquery.setAttribute('id','animation controls');
-document.getElementsByTagName('head')[0].childNodes
-document.getElementsByTagName('script')[0].append(jquery)
-document.getElementsByTagName('head')[0].insertBefore(document.getElementsByTagName('script')[0].childNodes[0],document.getElementsByTagName('head')[0].childNodes[0])
 
-//load animation controls gui
-jquery = document.createElement('script');
-jquery.setAttribute('src','https://cdn.rawgit.com/tisho/framer-animation-controls/master/dat.gui.js');
-jquery.setAttribute('id','gui');
-document.getElementsByTagName('head')[0].childNodes
-document.getElementsByTagName('script')[0].append(jquery)
-document.getElementsByTagName('head')[0].insertBefore(document.getElementsByTagName('script')[0].childNodes[0],document.getElementsByTagName('head')[0].childNodes[0])
 
 //load Layers
 jquery = document.createElement('script');
