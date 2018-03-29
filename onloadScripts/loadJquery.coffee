@@ -1,5 +1,5 @@
 //load animate
-velocityui = document.createElement('link');
+animate = document.createElement('link');
 animate.setAttribute('href','https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
 animate.setAttribute('id','animate');
 document.getElementsByTagName('head')[0].childNodes
