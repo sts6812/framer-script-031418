@@ -1,6 +1,6 @@
 //load velocityui
 velocityui = document.createElement('script');
-velocityui.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.2/velocity.ui.min.js');
+velocityui.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.2/velocity.ui.js');
 velocityui.setAttribute('id','animation controls');
 document.getElementsByTagName('head')[0].childNodes
 document.getElementsByTagName('script')[0].append(velocityui)
@@ -8,7 +8,7 @@ document.getElementsByTagName('head')[0].insertBefore(document.getElementsByTagN
 
 //load velocity
 velocity = document.createElement('script');
-velocity.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.2/velocity.min.js');
+velocity.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.2/velocity.js');
 velocity.setAttribute('id','animation controls');
 document.getElementsByTagName('head')[0].childNodes
 document.getElementsByTagName('script')[0].append(velocity)
